@@ -2,7 +2,6 @@ body{
 
 }
 .container{
-    width: 1100px !important;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 10px;
@@ -76,9 +75,8 @@ hr {
 }
 
 #info2, #tel2, #email2{
-    color: #b5ac9c;
+    color: #625c41;
     margin-left: 20px;
-    margin-right: 100px;
 }
 #footer{
     background-color: #f3f3f3;
@@ -115,5 +113,5 @@ hr {
 }
 footer{
     padding: 40px 20px;
-    width: 100%;
+
 }
