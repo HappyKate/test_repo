@@ -1,5 +1,5 @@
 body{
-    width: 120px;
+    width: 1100px !important;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 100px;
@@ -9,25 +9,22 @@ body{
     display: block;
     text-align: center;
 }
-img{
-
-}
 li {
-    font-size: 18px;
+    font-size: 17px;
     text-align: justify;
-    justify-content: space-around;
 }
 #logo{
     columns: 2;
     margin-left: 15px;
     margin-right: 1px;
+    margin-bottom: 13px;
 }
 #tel{
-    margin-top: 30px;
+    margin-top: 29px;
     display: inline-block;
     width: auto;
-    margin-left: 230px;
-    font-size: 33px;
+    margin-left: 250px;
+    font-size: 28px;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     color: #ca902e;
@@ -39,10 +36,10 @@ li {
     color: #ca902e;
     display: inline-block;
     width: auto;
-    margin-left: 230px;
-    font-size: 29px;
+    margin-left: 195px;
+    font-size: 24px;
     text-decoration: none;
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 #header {
     columns: 6;
@@ -61,13 +58,6 @@ font-family: 'Open Sans', sans-serif;
     margin-right: 0;
     margin-bottom: 20px;
 }
-
-.col{
-    display: inline-block;
-    width: 80px;
-    height: 90px;
-    text-align: center;
-}
 #menu{
     align-items: baseline;
     color: #ca902e;
@@ -78,19 +68,16 @@ font-family: 'Open Sans', sans-serif;
 }
 hr {
     border: 1px;
-    height: 6px;
+    height: 6px !important;
     background-color: #ca902e;
     color: #ca902e;
-    margin-top: 60px;
+    margin-top: 50px !important;
 }
-#info2, #email2, #tel2{
+
+#info2, #tel2, #email2{
     color: #b5ac9c;
-    margin-left: 110px;
-}
-button {
-    color: #ca902e;
-    background-color: white;
-    outline-color: #ca902e;
+    margin-left: 20px;
+    margin-right: 100px;
 }
 #footer{
     background-color: #f3f3f3;
@@ -101,6 +88,17 @@ button {
 #regaly, #info{
     color: black;
 }
-#color{
+#colori{
     color: #ca902e;
+}
+.btn-outline-info{
+    border-color: #ca902e !important;
+    color: #ca902e !important;
+}
+.text-32{
+    font-size: 32px;
+    color: #625c41;
+}
+.gray{
+    color: #625c41;
 }
