@@ -16,9 +16,8 @@ li {
     columns: 2;
     margin-left: 15px;
     margin-right: 1px;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
     flex-wrap: wrap;
-
 }
 #tel{
     margin-top: 29px;
@@ -99,7 +98,8 @@ hr {
     color: #ca902e;
 }
 .btn-outline-info:hover {
-    background-color: white;
+    background-color: white!important;
+    border-color: #ca902e!important;
 }
 .btn-outline-info{
     border-color: #ca902e !important;
@@ -123,6 +123,9 @@ hr {
     flex-grow: 1;
 }
 #footer{
-    padding: 0;
+    padding: 15px;
 
+}
+#icon{
+    margin-right: 300px;
 }
